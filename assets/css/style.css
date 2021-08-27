@@ -1,0 +1,289 @@
+header > a{
+    display: none;
+}
+header nav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+header nav a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #166668;
+   margin: auto;
+}
+.dflex {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.wrap {
+    width: 80%;
+    margin: auto;
+}
+#accueil{
+    background-image: url(../img/plage.svg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#accueil article {
+    background-color: #fff;
+    height: 350px;
+    width: 500px;
+    border-radius: 5%;
+    padding: 3rem;
+    align-self: center;
+    margin-left: 25vw;
+}
+#accueil article h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #FFA180;
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+#accueil article h2 span {
+    font-size: 4rem;
+}
+#accueil article p {
+    font-family: 'Roboto', sans-serif;
+    color: #FFA180;
+    font-size: 1.5rem;
+}
+#garanties {
+    margin-bottom: 5vh;
+}
+#garanties > div {
+    margin: auto;
+    width: 50%;
+    padding-top: 10rem;
+}
+#garanties > div h3 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #6AC7CE;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    
+}
+#garanties > div h3 span {
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+#garanties > div p {
+    font-family: 'Roboto', sans-serif;
+    color: #6AC7CE;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+#garanties article{
+    width: 50%;
+    padding-top: 100px;
+}
+#garanties article img{
+    margin-right: -20vh
+}
+#garanties article div div:first-child h4{
+   text-align: center;
+    color: #D24D5C;
+    margin:auto;
+    font-size: 2.5rem;
+}
+#garanties article div div:first-child p{
+    background-color: #D24D5C;
+    color: #fff;
+    text-align: center;
+    height: auto;
+    width: 8vw;
+    border-radius: 10%;
+    padding: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#garanties article div div:nth-child(2) h4{
+    text-align: center;
+    color: #D86E4D;
+    font-size: 2.5rem;
+}
+#garanties article div div:nth-child(2) p{
+    background-color: #D86E4D;
+    color: #fff;
+    text-align: center;
+    height: auto;
+    width: 8vw;
+    border-radius: 10%;
+    padding: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+#garanties article div div:last-child h4{
+    color: #EABF3A;
+    font-size: 2.5rem;
+    text-align: center;
+}
+#garanties article div div:last-child p{
+    background-color: #EABF3A;
+    color: #fff;
+    text-align: center;
+    height: auto;
+    width: 8vw;
+    border-radius: 10%;
+    padding: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+#protection {
+    background-image: url(../img/mer-ciel.svg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#protection article {
+ flex-wrap: wrap;
+}
+#protection article h3 {
+    color: #166668;
+    justify-self: center;
+    flex-basis: 100vw;
+    margin-top: 5vh;
+    font-size: 3rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+    padding-bottom: 4rem;
+    line-height: 6rem;
+}
+#protection article h3 span {
+    font-size: 4rem;
+}
+
+#protection article #image {
+    margin-bottom: 5vh;
+    width: 50vw;
+} 
+#protection article div{
+    background-color: #fff;
+    height: auto;
+    width: 18vw;
+    border-radius: 5%;
+    padding: 3rem;
+    align-self: center;
+    margin-left: 4rem;
+    color: #166668;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 5vh;
+    font-weight: 300;
+}
+#protection article img:last-of-type {
+    width: 80vw;
+}
+#environnement {
+    background-color: #FFE07B;
+    background-image: url(../img/decors-bleu.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 20vw 20vh;
+}
+#environnement div {
+    align-self: center;
+    width: 40vw;
+    padding-top: 25vh;
+    padding-left: 35vw;
+    padding-bottom: 13vh;
+}
+#environnement div h3 {
+    color: #DF3502;
+    font-size: 2.5rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+    padding-bottom: 5vh;
+}
+#environnement div h3 span {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+#environnement div p {
+    color: #DF3502;
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.5vh;
+    width: 30vw;
+}
+#environnement figure img{
+    width: 16vw;
+}
+#contact {
+    margin-top: 10rem;
+    height: auto;
+    background-color: #9DDFD3;
+}
+#contact div:first-of-type {
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+#contact h5 {
+    color: #166668;
+    margin-left: 10%;
+    padding-top: 3rem;
+    font-size: 1rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+#contact div:first-of-type div p {
+    width: 22vw;
+    color: #166668;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+#contact div:first-of-type div form {
+    padding-bottom: 2rem;
+}
+#contact div:first-of-type div form #email {
+    background-color: #9DDFD3;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    color: #166668;
+    font-size: 1.5rem;
+}
+#contact div:first-of-type div form input[value="s'inscrire"]{
+    background-color: #6AC7CE;
+    border: 2px solid #6AC7CE;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    border-radius: 3px;
+}
+#contact div:first-of-type nav a{
+    text-decoration: none;
+    color: #166668;
+    line-height: 1.5rem;
+}
+#contact #bottom {
+    background-color: #FFE07B;
+    text-align: center;
+    padding: 2rem;
+}
+#contact #bottom small {
+    color: #166668;
+}
+
+@media (max-width:1900px){
+    #protection{
+        height: 120vh;
+    }
+}
+@media (max-width:1670px) {
+    #protection{
+        height: 130vh;
+    }
+    #environnement div h3 {
+        font-size: 2rem;
+    }
+    #environnement div h3 span {
+        font-size: 3rem;
+    }
+}
