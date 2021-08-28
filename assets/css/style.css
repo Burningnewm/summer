@@ -212,6 +212,9 @@ header nav a {
     line-height: 2.5vh;
     width: 30vw;
 }
+#environnement figure{
+    width: 80vw;
+}
 #environnement figure img{
     width: 16vw;
 }
@@ -220,7 +223,8 @@ header nav a {
     background-color: white;
     background-image: url(../img/decors-jaune.svg);
     background-repeat: no-repeat;
-    background-position: 20vh 20vw;
+    background-position: center;
+    background-size: 50%;
 }
 #respect h3 {
     font-family: 'Love Ya Like A Sister', cursive;
@@ -235,6 +239,8 @@ header nav a {
 }
 #respect figure img{
     align-self: flex-start;
+    width: 20vw;
+    height: auto;
 }
 #respect div p {
     font-family: 'Roboto', sans-serif;
@@ -306,6 +312,11 @@ header nav a {
     #protection{
         height: 110vh;
     }
+    #protection article div{
+        width: 15vw;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
 }
 @media (max-width:1670px) {
     #environnement div h3 {
@@ -313,5 +324,36 @@ header nav a {
     }
     #environnement div h3 span {
         font-size: 3rem;
+    }
+}
+@media (max-width: 1300px){
+    #respect h3 {
+        font-size: 2rem;
+        padding: 20vh 0 10vh 0;
+    }
+    #respect h3 span {
+        font-size: 3rem;
+    }
+}
+@media (max-width:1175px){
+    #protection article div{
+        padding: 1rem;
+        border-radius: 8%;
+    }
+    #garanties > div h3 {
+        font-size: 2rem;
+    }
+    #garanties > div h3 span {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    #garanties > div p {
+        font-size: 1rem;
+    }
+    #garanties article img{
+        width: 70vw;
+        height: 70vh;
+        margin-right: -20vh;
+        align-self: center;
     }
 }
